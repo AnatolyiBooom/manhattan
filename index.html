@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MANHATTAN</title>
+  <!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css"> -->
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content container">
+      <a href="index.html" class="header__logo">
+        <img src="images/logo.svg" alt="Логотип">
+      </a>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="index.html" class="header__nav-link main-link">
+              Главная
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link main-link">
+              Меню
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a href="poster.html" class="header__nav-link main-link">
+              Афиша
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link main-link">
+              Сотрудничество
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a href="gallery.html" class="header__nav-link main-link">
+              Галерея
+          </a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link main-link">
+              Новости
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <a href="corporate.html" class="header__button big-btn btn">
+        бронирование
+    </a>
+    </div>
+
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero__content container">
+        <div class="hero__left">
+          <p class="hero__text title-p">
+            Since 1996
+          </p>
+          <h1 class="hero__title">
+            True. Fontanka. <br>
+            Underground.
+          </h1>
+        </div>
+        <div class="hero__right" id="tabs">
+          <ul class="hero__tabs">
+            <li><a href="#tabs-1">Ближайшие</a></li>
+            <li><a href="#tabs-2">скоро</a></li>
+          </ul>
+          <ul class="hero__list" id="tabs-1">
+            <li class="hero__hero-item">
+              <img class="hero__item-img" src="images/hero1.png" alt="Изображение">
+              <a href="#" class="hero__link"></a>
+            </li>
+            <li class="hero__hero-item">
+              <img class="hero__item-img" src="images/hero2.png" alt="Изображение">
+              <a href="#" class="hero__link"></a>
+            </li>
+            <li class="hero__hero-item">
+              <img class="hero__item-img" src="images/hero3.png" alt="Изображение">
+              <a href="#" class="hero__link"></a>
+            </li>
+            <li class="hero__hero-item">
+              <img class="hero__item-img" src="images/hero4.png" alt="Изображение">
+              <a href="#" class="hero__link"></a>
+            </li>
+          </ul>
+          <ul class="hero__list" id="tabs-2">
+
+            <li class="hero__hero-item">
+              <img class="hero__item-img" src="images/hero2.png" alt="Изображение">
+              <a href="#" class="hero__link"></a>
+            </li>
+
+            <li class="hero__hero-item">
+              <img class="hero__item-img" src="images/hero1.png" alt="Изображение">
+              <a href="#" class="hero__link"></a>
+            </li>
+
+            <li class="hero__hero-item">
+              <img class="hero__item-img" src="images/hero4.png" alt="Изображение">
+              <a href="#" class="hero__link"></a>
+            </li>
+            <li class="hero__hero-item">
+              <img class="hero__item-img" src="images/hero3.png" alt="Изображение">
+              <a href="#" class="hero__link"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="kitchen">
+      <div class="kitchen__content container">
+        <div class="kitchen__top block-desc">
+          <span class="kitchen__name name-block">
+            Top “Manhattan” menu
+          </span>
+          <h2 class="kitchen__title main-title">
+            Кухня
+          </h2>
+        </div>
+        <div class="kitchen__swiper-block">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <ul class="kitchen__slide swiper-slide">
+                <li class="kitchen__item">
+                  <article class="kitchen__card product-card">
+                    <img class="kitchen__item-img" src="images/kitchen1.png" alt="">
+                    <div class="kitchen__info">
+                      <h3 class="kitchen__item-title">
+                        Amet donec.
+                      </h3>
+                      <p class="kitchen__weight">
+                        200 гр
+                      </p>
+                      <p class="kitchen__desc">
+                        Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.
+                      </p>
+                    </div>
+                    <span class="kitchen__price">
+                      540 р
+                    </span>
+                    <a href="" class="kitchen__link"></a>
+                  </article>
+                </li>
+                <li class="kitchen__item">
+                  <article class="kitchen__card product-card">
+                    <img class="kitchen__item-img" src="images/kitchen2.png" alt="">
+                    <div class="kitchen__info">
+                      <h3 class="kitchen__item-title">
+                        Amet donec.
+                      </h3>
+                      <p class="kitchen__weight">
+                        200 гр
+                      </p>
+                      <p class="kitchen__desc">
+                        Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.
+                      </p>
+                    </div>
+                    <span class="kitchen__price">
+                      540 р
+                    </span>
+                    <a href="" class="kitchen__link"></a>
+                  </article>
+                </li>
+                <li class="kitchen__item">
+                  <article class="kitchen__card product-card">
+                    <img class="kitchen__item-img" src="images/kitchen3.png" alt="">
+                    <div class="kitchen__info">
+                      <h3 class="kitchen__item-title">
+                        Amet donec.
+                      </h3>
+                      <p class="kitchen__weight">
+                        200 гр
+                      </p>
+                      <p class="kitchen__desc">
+                        Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.
+                      </p>
+                    </div>
+                    <span class="kitchen__price">
+                      540 р
+                    </span>
+                    <a href="" class="kitchen__link"></a>
+                  </article>
+                </li>
+                <li class="kitchen__item">
+                  <article class="kitchen__card product-card">
+                    <img class="kitchen__item-img" src="images/kitchen4.png" alt="">
+                    <div class="kitchen__info">
+                      <h3 class="kitchen__item-title">
+                        Amet donec.
+                      </h3>
+                      <p class="kitchen__weight">
+                        200 гр
+                      </p>
+                      <p class="kitchen__desc">
+                        Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.
+                      </p>
+                    </div>
+                    <span class="kitchen__price">
+                      540 р
+                    </span>
+                    <a href="" class="kitchen__link"></a>
+                  </article>
+                </li>
+              </ul>
+              <ul class="kitchen__slide swiper-slide">
+                <li class="kitchen__item">
+                  <article class="kitchen__card product-card">
+                    <img class="kitchen__item-img" src="images/kitchen5.png" alt="">
+                    <div class="kitchen__info">
+                      <h3 class="kitchen__item-title">
+                        Amet donec.
+                      </h3>
+                      <p class="kitchen__weight">
+                        200 гр
+                      </p>
+                      <p class="kitchen__desc">
+                        Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.
+                      </p>
+                    </div>
+                    <span class="kitchen__price">
+                      540 р
+                    </span>
+                    <a href="" class="kitchen__link"></a>
+                  </article>
+                </li>
+                <li class="kitchen__item">
+                  <article class="kitchen__card product-card">
+                    <img class="kitchen__item-img" src="images/kitchen6.png" alt="">
+                    <div class="kitchen__info">
+                      <h3 class="kitchen__item-title">
+                        Amet donec.
+                      </h3>
+                      <p class="kitchen__weight">
+                        200 гр
+                      </p>
+                      <p class="kitchen__desc">
+                        Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.
+                      </p>
+                    </div>
+                    <span class="kitchen__price">
+                      540 р
+                    </span>
+                    <a href="" class="kitchen__link"></a>
+                  </article>
+                </li>
+                <li class="kitchen__item">
+                  <article class="kitchen__card product-card">
+                    <img class="kitchen__item-img" src="images/kitchen7.png" alt="">
+                    <div class="kitchen__info">
+                      <h3 class="kitchen__item-title">
+                        Amet donec.
+                      </h3>
+                      <p class="kitchen__weight">
+                        200 гр
+                      </p>
+                      <p class="kitchen__desc">
+                        Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.
+                      </p>
+                    </div>
+                    <span class="kitchen__price">
+                      540 р
+                    </span>
+                    <a href="" class="kitchen__link"></a>
+                  </article>
+                </li>
+                <li class="kitchen__item">
+                  <article class="kitchen__card product-card">
+                    <img class="kitchen__item-img" src="images/kitchen8.png" alt="">
+                    <div class="kitchen__info">
+                      <h3 class="kitchen__item-title">
+                        Amet donec.
+                      </h3>
+                      <p class="kitchen__weight">
+                        200 гр
+                      </p>
+                      <p class="kitchen__desc">
+                        Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.
+                      </p>
+                    </div>
+                    <span class="kitchen__price">
+                      540 р
+                    </span>
+                    <a href="" class="kitchen__link"></a>
+                  </article>
+                </li>
+              </ul>
+              <ul class="kitchen__slide swiper-slide">
+                <li class="kitchen__item">
+                  <article class="kitchen__card product-card">
+                    <img class="kitchen__item-img" src="images/kitchen1.png" alt="">
+                    <div class="kitchen__info">
+                      <h3 class="kitchen__item-title">
+                        Amet donec.
+                      </h3>
+                      <p class="kitchen__weight">
+                        200 гр
+                      </p>
+                      <p class="kitchen__desc">
+                        Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.
+                      </p>
+                    </div>
+                    <span class="kitchen__price">
+                      540 р
+                    </span>
+                    <a href="" class="kitchen__link"></a>
+                  </article>
+                </li>
+                <li class="kitchen__item">
+                  <article class="kitchen__card product-card">
+                    <img class="kitchen__item-img" src="images/kitchen2.png" alt="">
+                    <div class="kitchen__info">
+                      <h3 class="kitchen__item-title">
+                        Amet donec.
+                      </h3>
+                      <p class="kitchen__weight">
+                        200 гр
+                      </p>
+                      <p class="kitchen__desc">
+                        Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.
+                      </p>
+                    </div>
+                    <span class="kitchen__price">
+                      540 р
+                    </span>
+                    <a href="" class="kitchen__link"></a>
+                  </article>
+                </li>
+                <li class="kitchen__item">
+                  <article class="kitchen__card product-card">
+                    <img class="kitchen__item-img" src="images/kitchen3.png" alt="">
+                    <div class="kitchen__info">
+                      <h3 class="kitchen__item-title">
+                        Amet donec.
+                      </h3>
+                      <p class="kitchen__weight">
+                        200 гр
+                      </p>
+                      <p class="kitchen__desc">
+                        Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.
+                      </p>
+                    </div>
+                    <span class="kitchen__price">
+                      540 р
+                    </span>
+                    <a href="" class="kitchen__link"></a>
+                  </article>
+                </li>
+                <li class="kitchen__item">
+                  <article class="kitchen__card product-card">
+                    <img class="kitchen__item-img" src="images/kitchen4.png" alt="">
+                    <div class="kitchen__info">
+                      <h3 class="kitchen__item-title">
+                        Amet donec.
+                      </h3>
+                      <p class="kitchen__weight">
+                        200 гр
+                      </p>
+                      <p class="kitchen__desc">
+                        Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.
+                      </p>
+                    </div>
+                    <span class="kitchen__price">
+                      540 р
+                    </span>
+                    <a href="" class="kitchen__link"></a>
+                  </article>
+                </li>
+              </ul>
+              <ul class="kitchen__slide swiper-slide">
+                <li class="kitchen__item">
+                  <article class="kitchen__card product-card">
+                    <img class="kitchen__item-img" src="images/kitchen5.png" alt="">
+                    <div class="kitchen__info">
+                      <h3 class="kitchen__item-title">
+                        Amet donec.
+                      </h3>
+                      <p class="kitchen__weight">
+                        200 гр
+                      </p>
+                      <p class="kitchen__desc">
+                        Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.
+                      </p>
+                    </div>
+                    <span class="kitchen__price">
+                      540 р
+                    </span>
+                    <a href="" class="kitchen__link"></a>
+                  </article>
+                </li>
+                <li class="kitchen__item">
+                  <article class="kitchen__card product-card">
+                    <img class="kitchen__item-img" src="images/kitchen6.png" alt="">
+                    <div class="kitchen__info">
+                      <h3 class="kitchen__item-title">
+                        Amet donec.
+                      </h3>
+                      <p class="kitchen__weight">
+                        200 гр
+                      </p>
+                      <p class="kitchen__desc">
+                        Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.
+                      </p>
+                    </div>
+                    <span class="kitchen__price">
+                      540 р
+                    </span>
+                    <a href="" class="kitchen__link"></a>
+                  </article>
+                </li>
+                <li class="kitchen__item">
+                  <article class="kitchen__card product-card">
+                    <img class="kitchen__item-img" src="images/kitchen7.png" alt="">
+                    <div class="kitchen__info">
+                      <h3 class="kitchen__item-title">
+                        Amet donec.
+                      </h3>
+                      <p class="kitchen__weight">
+                        200 гр
+                      </p>
+                      <p class="kitchen__desc">
+                        Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.
+                      </p>
+                    </div>
+                    <span class="kitchen__price">
+                      540 р
+                    </span>
+                    <a href="" class="kitchen__link"></a>
+                  </article>
+                </li>
+                <li class="kitchen__item">
+                  <article class="kitchen__card product-card">
+                    <img class="kitchen__item-img" src="images/kitchen8.png" alt="">
+                    <div class="kitchen__info">
+                      <h3 class="kitchen__item-title">
+                        Amet donec.
+                      </h3>
+                      <p class="kitchen__weight">
+                        200 гр
+                      </p>
+                      <p class="kitchen__desc">
+                        Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit.
+                      </p>
+                    </div>
+                    <span class="kitchen__price">
+                      540 р
+                    </span>
+                    <a href="" class="kitchen__link"></a>
+                  </article>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <button class="kitchen__btn btn orange-btn">
+          все меню
+        </button>
+      </div>
+    </section>
+    <section class="events">
+      <div class="events__content container">
+        <div class="events__column">
+          <span class="events__name name-block">
+            Top “Manhattan” events
+          </span>
+          <h2 class="events__title main-title">
+            Банкеты
+          </h2>
+          <p class="events__desc">
+            Quam massa pretium et venenatis. Fringilla sagittis, arcu massa, in sem viverra consequat. Tempus sed est
+            interdum eget nisi, nec fames. Eget amet hac varius aliquam. Mattis egestas suspendisse convallis eu arcu et
+            aliquet. <br><br>
+            Porttitor risus sociis vitae nunc id lacus eget felis. Viverra et purus nibh ut. Sed ac leo sit posuere
+            vulputate sed morbi. Donec gravida at turpis sed pulvinar. A nibh non consectetur morbi in arcu, in
+            pellentesque mauris. <br><br>
+            Eu sodales netus faucibus interdum interdum platea massa egestas. Facilisis donec gravida pretium diam
+            semper at id eleifend.
+          </p>
+          <a href="#" class="events__link btn">
+            Подробнее
+          </a>
+        </div>
+        <img class="events__img" src="images/eventsimg.png" alt="event bg">
+        <div class="events__column">
+          <span class="events__name name-block">
+            Top “Manhattan” tourists
+          </span>
+          <h2 class="events__title main-title">
+            Туристы
+          </h2>
+          <p class="events__desc">
+            Quam massa pretium et venenatis. Fringilla sagittis, arcu massa, in sem viverra consequat. Tempus sed est
+            interdum eget nisi, nec fames. Eget amet hac varius aliquam. Mattis egestas suspendisse convallis eu arcu et
+            aliquet. <br><br>
+            Porttitor risus sociis vitae nunc id lacus eget felis. Viverra et purus nibh ut. Sed ac leo sit posuere
+            vulputate sed morbi. Donec gravida at turpis sed pulvinar. A nibh non consectetur morbi in arcu, in
+            pellentesque mauris. <br><br>
+            Eu sodales netus faucibus interdum interdum platea massa egestas. Facilisis donec gravida pretium diam
+            semper at id eleifend.
+          </p>
+          <a href="#" class="events__link btn">
+            Подробнее
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="rider">
+      <div class="rider__content container">
+        <div class="rider__top block-desc">
+          <span class="rider__name name-block">
+            Top “Manhattan” party
+          </span>
+          <h2 class="rider__title main-title">
+            Техрайдер
+          </h2>
+        </div>
+        <div class="rider__box">
+          <div class="rider__accordion rider-column" id="accordion">
+            <h3>Loudspeakers</h3>
+            <ul>
+              <li>
+                Acoustic system BELL Top 600W x 2
+              </li>
+              <li>
+                Acoustic system BELL Mid 600W x 2
+              </li>
+              <li>
+                Acoustic system BELL Sub 1000W x 2
+              </li>
+              <li>
+                Front monitor Yamaha SM12V 300w x 2
+              </li>
+              <li>
+                Backside monitor Dynacord 500W x 2
+              </li>
+            </ul>
+            <h3>Amplifier</h3>
+            <ul>
+              <li>
+                Acoustic system BELL Top 600W x 2
+              </li>
+              <li>
+                Acoustic system BELL Mid 600W x 2
+              </li>
+              <li>
+                Acoustic system BELL Sub 1000W x 2
+              </li>
+              <li>
+                Front monitor Yamaha SM12V 300w x 2
+              </li>
+              <li>
+                Backside monitor Dynacord 500W x 2
+              </li>
+            </ul>
+            <h3>FOH</h3>
+            <ul>
+              <li>
+                Acoustic system BELL Top 600W x 2
+              </li>
+              <li>
+                Acoustic system BELL Mid 600W x 2
+              </li>
+              <li>
+                Acoustic system BELL Sub 1000W x 2
+              </li>
+              <li>
+                Front monitor Yamaha SM12V 300w x 2
+              </li>
+              <li>
+                Backside monitor Dynacord 500W x 2
+              </li>
+            </ul>
+            <h3>Backline</h3>
+            <ul>
+              <li>
+                Acoustic system BELL Top 600W x 2
+              </li>
+              <li>
+                Acoustic system BELL Mid 600W x 2
+              </li>
+              <li>
+                Acoustic system BELL Sub 1000W x 2
+              </li>
+              <li>
+                Front monitor Yamaha SM12V 300w x 2
+              </li>
+              <li>
+                Backside monitor Dynacord 500W x 2
+              </li>
+            </ul>
+            <h3>Microphone set</h3>
+            <ul>
+              <li>
+                Acoustic system BELL Top 600W x 2
+              </li>
+              <li>
+                Acoustic system BELL Mid 600W x 2
+              </li>
+              <li>
+                Acoustic system BELL Sub 1000W x 2
+              </li>
+              <li>
+                Front monitor Yamaha SM12V 300w x 2
+              </li>
+              <li>
+                Backside monitor Dynacord 500W x 2
+              </li>
+            </ul>
+            <h3>DJ equipment</h3>
+            <ul>
+              <li>
+                Acoustic system BELL Top 600W x 2
+              </li>
+              <li>
+                Acoustic system BELL Mid 600W x 2
+              </li>
+              <li>
+                Acoustic system BELL Sub 1000W x 2
+              </li>
+              <li>
+                Front monitor Yamaha SM12V 300w x 2
+              </li>
+              <li>
+                Backside monitor Dynacord 500W x 2
+              </li>
+            </ul>
+          </div>
+          <div class="rider__hero rider-column">
+            <h3 class="rider__hero-title">
+              Звукорежиссеры <br> клуба МАНХЭТТЕН
+            </h3>
+            <ul class="rider__hero-list">
+              <li class="rider__hero-item">
+                <img class="rider__hero-img" src="images/rider1.png" alt="Фото режиссера">
+                <h4 class="rider__hero-name">
+                  Изотов<br>Константин
+                </h4>
+                <div class="rider__hero-social">
+                  <a href="#" class="rider__hero-link">
+                    <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M17.8021 8.2982C17.8021 8.2982 19.4191 9.8952 19.8191 10.6342C19.8269 10.6449 19.8329 10.6567 19.8371 10.6692C20.0001 10.9422 20.0401 11.1562 19.9601 11.3142C19.8251 11.5752 19.3681 11.7062 19.2131 11.7172H16.3551C16.1561 11.7172 15.7421 11.6652 15.2381 11.3172C14.8531 11.0482 14.4701 10.6052 14.0991 10.1722C13.5451 9.5292 13.0661 8.9712 12.5811 8.9712C12.5198 8.97107 12.459 8.98121 12.4011 9.0012C12.0341 9.1172 11.5681 9.6402 11.5681 11.0332C11.5681 11.4692 11.2241 11.7172 10.9831 11.7172H9.67409C9.22809 11.7172 6.90609 11.5612 4.84709 9.3902C2.32409 6.7322 0.05809 1.4002 0.03609 1.3532C-0.10491 1.0082 0.19109 0.820203 0.51109 0.820203H3.39709C3.78409 0.820203 3.91009 1.0542 3.99809 1.2642C4.10009 1.5052 4.47809 2.4692 5.09809 3.5522C6.10209 5.3142 6.71909 6.0312 7.21209 6.0312C7.30471 6.03148 7.39577 6.00733 7.47609 5.9612C8.12009 5.6072 8.00009 3.3072 7.97009 2.8332C7.97009 2.7412 7.96909 1.8062 7.63909 1.3542C7.40309 1.0302 7.00109 0.904203 6.75809 0.858203C6.82309 0.764203 6.96109 0.620203 7.13809 0.535203C7.57909 0.315203 8.37609 0.283203 9.16709 0.283203H9.60609C10.4641 0.295203 10.6861 0.350203 10.9981 0.429203C11.6261 0.579203 11.6381 0.986203 11.5831 2.3722C11.5671 2.7682 11.5501 3.2142 11.5501 3.7392C11.5501 3.8512 11.5451 3.9762 11.5451 4.1032C11.5261 4.8142 11.5011 5.6152 12.0031 5.9442C12.0682 5.98476 12.1434 6.00624 12.2201 6.0062C12.3941 6.0062 12.9151 6.0062 14.3281 3.5812C14.9481 2.5102 15.4281 1.2472 15.4611 1.1522C15.4891 1.0992 15.5731 0.950203 15.6751 0.890203C15.7476 0.851598 15.8289 0.832314 15.9111 0.834203H19.3061C19.6761 0.834203 19.9271 0.890203 19.9761 1.0302C20.0581 1.2572 19.9601 1.9502 18.4101 4.0462C18.1491 4.3952 17.9201 4.6972 17.7191 4.9612C16.3141 6.8052 16.3141 6.8982 17.8021 8.2982Z"
+                        fill="white" />
+                    </svg>
+                  </a>
+                  <a href="#" class="rider__hero-link">
+                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M16.2208 0.0973501L1.44583 5.79485C0.437498 6.19985 0.443331 6.76235 1.26083 7.01318L5.05416 8.19652L13.8308 2.65902C14.2458 2.40652 14.625 2.54235 14.3133 2.81902L7.2025 9.23652H7.20083L7.2025 9.23735L6.94083 13.1474C7.32416 13.1474 7.49333 12.9715 7.70833 12.764L9.55083 10.9724L13.3833 13.8032C14.09 14.1923 14.5975 13.9923 14.7733 13.149L17.2892 1.29235C17.5467 0.25985 16.895 -0.20765 16.2208 0.0973501Z"
+                        fill="white" />
+                    </svg>
+
+                  </a>
+                </div>
+              </li>
+              <li class="rider__hero-item">
+                <img class="rider__hero-img" src="images/rider2.png" alt="Фото режиссера">
+                <h4 class="rider__hero-name">
+                  Давид<br>Хозиев
+                </h4>
+                <div class="rider__hero-social">
+                  <a href="#" class="rider__hero-link">
+                    <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M17.8021 8.2982C17.8021 8.2982 19.4191 9.8952 19.8191 10.6342C19.8269 10.6449 19.8329 10.6567 19.8371 10.6692C20.0001 10.9422 20.0401 11.1562 19.9601 11.3142C19.8251 11.5752 19.3681 11.7062 19.2131 11.7172H16.3551C16.1561 11.7172 15.7421 11.6652 15.2381 11.3172C14.8531 11.0482 14.4701 10.6052 14.0991 10.1722C13.5451 9.5292 13.0661 8.9712 12.5811 8.9712C12.5198 8.97107 12.459 8.98121 12.4011 9.0012C12.0341 9.1172 11.5681 9.6402 11.5681 11.0332C11.5681 11.4692 11.2241 11.7172 10.9831 11.7172H9.67409C9.22809 11.7172 6.90609 11.5612 4.84709 9.3902C2.32409 6.7322 0.05809 1.4002 0.03609 1.3532C-0.10491 1.0082 0.19109 0.820203 0.51109 0.820203H3.39709C3.78409 0.820203 3.91009 1.0542 3.99809 1.2642C4.10009 1.5052 4.47809 2.4692 5.09809 3.5522C6.10209 5.3142 6.71909 6.0312 7.21209 6.0312C7.30471 6.03148 7.39577 6.00733 7.47609 5.9612C8.12009 5.6072 8.00009 3.3072 7.97009 2.8332C7.97009 2.7412 7.96909 1.8062 7.63909 1.3542C7.40309 1.0302 7.00109 0.904203 6.75809 0.858203C6.82309 0.764203 6.96109 0.620203 7.13809 0.535203C7.57909 0.315203 8.37609 0.283203 9.16709 0.283203H9.60609C10.4641 0.295203 10.6861 0.350203 10.9981 0.429203C11.6261 0.579203 11.6381 0.986203 11.5831 2.3722C11.5671 2.7682 11.5501 3.2142 11.5501 3.7392C11.5501 3.8512 11.5451 3.9762 11.5451 4.1032C11.5261 4.8142 11.5011 5.6152 12.0031 5.9442C12.0682 5.98476 12.1434 6.00624 12.2201 6.0062C12.3941 6.0062 12.9151 6.0062 14.3281 3.5812C14.9481 2.5102 15.4281 1.2472 15.4611 1.1522C15.4891 1.0992 15.5731 0.950203 15.6751 0.890203C15.7476 0.851598 15.8289 0.832314 15.9111 0.834203H19.3061C19.6761 0.834203 19.9271 0.890203 19.9761 1.0302C20.0581 1.2572 19.9601 1.9502 18.4101 4.0462C18.1491 4.3952 17.9201 4.6972 17.7191 4.9612C16.3141 6.8052 16.3141 6.8982 17.8021 8.2982Z"
+                        fill="white" />
+                    </svg>
+                  </a>
+                  <a href="#" class="rider__hero-link">
+                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M16.2208 0.0973501L1.44583 5.79485C0.437498 6.19985 0.443331 6.76235 1.26083 7.01318L5.05416 8.19652L13.8308 2.65902C14.2458 2.40652 14.625 2.54235 14.3133 2.81902L7.2025 9.23652H7.20083L7.2025 9.23735L6.94083 13.1474C7.32416 13.1474 7.49333 12.9715 7.70833 12.764L9.55083 10.9724L13.3833 13.8032C14.09 14.1923 14.5975 13.9923 14.7733 13.149L17.2892 1.29235C17.5467 0.25985 16.895 -0.20765 16.2208 0.0973501Z"
+                        fill="white" />
+                    </svg>
+
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__content container">
+      <div class="rider__top block-desc">
+        <span class="footer__text name-block">
+          Top “Manhattan” place
+        </span>
+        <h2 class="footer__title main-title">
+          контакты
+        </h2>
+      </div>
+      <div class="footer__block">
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <p class="footer__name">
+              Адрес
+            </p>
+            <span class="footer__desc">
+              Набережная реки Фонтанки, 90 (вход в арке с белыми колоннами)
+            </span>
+          </li>
+          <li class="footer__list-item">
+            <p class="footer__name">
+              телефон
+            </p>
+            <a href="tel:+78127131945" class="footer__desc">
+              +7 (812) 713-1945
+            </a>
+          </li>
+          <li class="footer__list-item">
+            <p class="footer__name">
+              режим работы
+            </p>
+            <span class="footer__desc">
+              Ежедневно с 12:00 до 06:00
+            </span>
+          </li>
+          <hr>
+          <li class="footer__list-item">
+            <p class="footer__name">
+              директор
+            </p>
+            <span class="footer__desc">
+              Лидия Эмильевна, +7(921) 963-55-50
+            </span>
+          </li>
+          <li class="footer__list-item">
+            <p class="footer__name">
+              арт-директор
+            </p>
+            <span class="footer__desc">
+              Илиния Ионашко, <a href="tel:+79819894330" class="footer__desc">
+                +7(981) 989-43-30
+              </a>
+            </span>
+          </li>
+        </ul>
+        <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+        <script>
+          ymaps.ready(init);
+          function init() {
+            var myMap = new ymaps.Map("map", {
+              center: [59.925340, 30.329325],
+              zoom: 15,
+              controls: []
+            });
+            myGeoObject = new ymaps.GeoObject({
+              geometry: {
+                type: "Point",// тип геометрии - точка
+                coordinates: [59.925340, 30.329325], // координаты точки
+                iconCaption: 'Очень длиннный, но невероятно интересный текст'
+              },
+              preset: 'islands#redDotIconWithCaption'
+            });
+            var myPlacemark = new ymaps.Placemark([59.925340, 30.329325], {}, {
+              iconImageSize: [28, 40],
+              iconImageOffset: [-3, -42],
+            });
+            myMap.geoObjects.add(myGeoObject, myPlacemark);
+          }
+
+        </script>
+        <div class="footer__map" id="map"></div>
+      </div>
+    </div>
+    <hr>
+    <div class="footer__copyright container ">
+      <span class="footer__dev">
+        Copyright © 2022. Все права защищены.
+      </span>
+      <span class="footer__dev">
+        Разработано d-e-n.ru
+      </span>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
