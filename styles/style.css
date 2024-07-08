@@ -1305,6 +1305,10 @@ hr {
     background-color: #d5621d;
   }
 
+   .footer__copyright {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
    .footer__dev {
     font-size: 8px;
 }
