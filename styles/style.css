@@ -1304,4 +1304,8 @@ hr {
   .ui-accordion-header:hover {
     background-color: #d5621d;
   }
+
+   .footer__dev {
+    font-size: 8px;
+}
 }
